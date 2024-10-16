@@ -6,6 +6,6 @@ services:
   plan: free
   region: oregon
   buildCommand: npm i
-  startCommand: node url=https%3A%2F%2Fkingofkfcjamal.github.io%2FCaseClicker%2F&mobile=false.html
+  startCommand: node script.js
   rootDir: .
 version: "1"
