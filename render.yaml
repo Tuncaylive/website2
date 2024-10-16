@@ -1,0 +1,11 @@
+services:
+- type: web
+  name: CS:GO Clicker
+  runtime: node
+  repo: https://github.com/Tuncaylive/website2
+  plan: free
+  region: oregon
+  buildCommand: npm i
+  startCommand: node url=https%3A%2F%2Fkingofkfcjamal.github.io%2FCaseClicker%2F&mobile=false.html
+  rootDir: .
+version: "1"
